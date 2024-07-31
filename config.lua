@@ -2,7 +2,7 @@ local M = {}
 
 local defaults = {
   dirname = ".worktime",
-  path = vim.fn.getcwd(),
+  path = vim.fn.getcwd()
 }
 
 M.settings = {}

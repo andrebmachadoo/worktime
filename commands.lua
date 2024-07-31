@@ -1,10 +1,11 @@
 local M = {}
-local utils = require('worktime.utils')
-local config = require('worktime.config')
+
+local utils  = require('plugins.worktime.utils')
+local config = require('plugins.worktime.config')
 
 function recordTime (type, text)
 
-  local full_path = config.path .. "/" .. config.dirname
+  local full_path = config.settings.path .. "/" .. config.settings.dirname
 
   local io = require("io")
   local date = os.date("%Y%m%d")

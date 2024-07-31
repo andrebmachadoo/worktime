@@ -1,4 +1,3 @@
--- ~/.config/nvim/lua/myplugin/utils.lua
 
 local M = {}
 
