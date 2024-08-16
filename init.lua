@@ -1,8 +1,8 @@
 local M = {}
 
 -- load modules 
-local config = require('plugins.worktime.config')
-local commands = require('plugins.worktime.commands')
+local config = require('config')
+local commands = require('commands')
 
 function M.setup(user_config)
   config.setup(user_config)

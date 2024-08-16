@@ -1,7 +1,7 @@
 local M = {}
 
-local utils  = require('plugins.worktime.utils')
-local config = require('plugins.worktime.config')
+local utils  = require('utils')
+local config = require('config')
 
 function recordTime (type, text)
 
