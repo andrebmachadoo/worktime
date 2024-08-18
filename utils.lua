@@ -27,5 +27,14 @@ function M.createDirectory(path)
     end 
 end
 
+function M.log(text)
+  local io = require("io")
+  arquivo = io.open("nvim.log","a+") 
+  arquivo:write("\nLog:"..text)
+  arquivo:flush()
+  arquivo:close()
+end
+
 return M
+
 
